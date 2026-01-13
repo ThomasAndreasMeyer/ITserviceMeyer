@@ -1,1 +1,217 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+  <title>IT-Sicherheit & Datenschutz für KMU & Arztpraxen | Thomas Meyer – Vulnerability Management</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Thomas Meyer unterstützt kleine Unternehmen und Arztpraxen beim Vulnerability Management, IT-Sicherheit und Datenschutz. Praxisnahe Umsetzung, klare Empfehlungen und bezahlbare Lösungen.">
+  <meta name="keywords" content="Vulnerability Management, IT-Sicherheit, Arztpraxen, Datenschutz, DSGVO, Schwachstellenanalyse, KMU, Praxis IT, IT-Sicherheitscheck, Datenschutzbeauftragter">
+  <meta name="author" content="Thomas Meyer">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://deinedomain.de/">
+
+  <!-- OG -->
+  <meta property="og:title" content="IT-Sicherheit & Datenschutz für kleine Unternehmen & Praxen">
+  <meta property="og:description" content="Vulnerability Management, IT-Hygiene & Datenschutz – verständlich, pragmatisch und bezahlbar.">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #2042e3;
+      --dark: #0c0f16;
+      --light: #f4f7fb;
+      --text-dark: #1b1f23;
+      --text-light: #e7eef5;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: var(--light);
+      color: var(--text-dark);
+    }
+
+    .section { padding: clamp(4rem, 6vw, 7rem) 1rem; }
+
+    .navbar {
+      backdrop-filter: blur(10px);
+      background: rgba(255,255,255,.9) !important;
+    }
+
+    .hero {
+      min-height: 85vh;
+      padding-top: 6rem;
+      background: linear-gradient(125deg, rgba(32,66,227,0.8), rgba(9,15,40,0.95));
+      color: white;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+
+    .card-custom {
+      background: white;
+      border-radius: 1rem;
+      padding: 2rem;
+      border: 1px solid #dfe3e8;
+      transition: .25s;
+    }
+
+    .card-custom:hover {
+      transform: translateY(-4px);
+      border-color: var(--primary);
+    }
+
+    .cta {
+      background: var(--primary);
+      color: white;
+      padding: 3rem;
+      border-radius: 1.25rem;
+    }
+
+    footer {
+      background: var(--dark);
+      color: var(--text-light);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body { background: var(--dark); color: var(--text-light); }
+      .card-custom { background: #151b23; border-color: #222; }
+      .navbar { background: rgba(10,10,20,.85) !important; }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Thomas Meyer</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto gap-3">
+        <li class="nav-item"><a class="nav-link" href="#leistungen">Leistungen</a></li>
+        <li class="nav-item"><a class="nav-link" href="#branchen">Branchen</a></li>
+        <li class="nav-item"><a class="nav-link" href="#warum">Warum ich?</a></li>
+        <li class="nav-item"><a class="btn btn-outline-primary" href="mailto:kontakt@domain.de">Kontakt</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container" data-aos="fade-up">
+    <h1 class="display-5 fw-bold">IT-Sicherheit & Datenschutz für kleine Unternehmen und Arztpraxen</h1>
+    <p class="lead mt-3">
+      Ich helfe Ihnen, Schwachstellen zu erkennen, Risiken zu reduzieren und Datenschutz sicher umzusetzen – ohne Fachchinesisch und ohne Agenturpreise.
+    </p>
+    <a href="#leistungen" class="btn btn-light btn-lg mt-4 fw-semibold">Leistungen ansehen</a>
+  </div>
+</section>
+
+<!-- LEISTUNGEN -->
+<section id="leistungen" class="section">
+  <div class="container text-center" data-aos="fade-up">
+    <h2 class="fw-bold mb-4">Meine Leistungen</h2>
+    <p class="mb-5">Praxisorientierte IT-Sicherheit und Datenschutz – auf Augenhöhe erklärt und bezahlbar umgesetzt.</p>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card-custom h-100">
+          <h4 class="fw-bold">Vulnerability Management</h4>
+          <p class="mt-2">Identifikation und Bewertung von Schwachstellen in Systemen & Webanwendungen. Mit klaren Handlungsschritten statt nur PDFs.</p>
+          <ul class="text-start small mt-2">
+            <li>Schwachstellenanalyse</li>
+            <li>Risiko- und Priorisierung</li>
+            <li>Verbesserungsempfehlungen</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card-custom h-100">
+          <h4 class="fw-bold">IT-Sicherheits-Hygiene</h4>
+          <p class="mt-2">Stärkung der Basis-Sicherheit: Updates, Passwörter, Backups & Zugriffsrechte – der wichtigste Schutz vor Ausfällen.</p>
+          <ul class="text-start small mt-2">
+            <li>Passwort- & Backup-Prüfung</li>
+            <li>Patch-Status & Zugriffsrechte</li>
+            <li>Awareness & Schulung</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card-custom h-100">
+          <h4 class="fw-bold">Datenschutz (DSGVO)</h4>
+          <p class="mt-2">Technische & organisatorische Maßnahmen professionell dokumentieren und umsetzen. Verständlich & pragmatisch.</p>
+          <ul class="text-start small mt-2">
+            <li>TOMs & AV-Verträge</li>
+            <li>Dokumentation & Löschkonzepte</li>
+            <li>Besonders geeignet für Praxen</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BRANCHEN -->
+<section id="branchen" class="section">
+  <div class="container text-center" data-aos="fade-up">
+    <h2 class="fw-bold mb-3">Für wen ist das interessant?</h2>
+    <p class="mb-4">Ich arbeite vor allem mit sicherheitsrelevanten Branchen und kleinen Unternehmen:</p>
+    <ul class="list-unstyled fw-semibold">
+      <li>🏥 Arztpraxen & Therapiepraxen</li>
+      <li>📊 Steuerberater & Kanzleien</li>
+      <li>🏪 Dienstleister & Einzelhandel</li>
+      <li>⚙️ Handwerk & lokale Unternehmen</li>
+    </ul>
+  </div>
+</section>
+
+<!-- WARUM -->
+<section id="warum" class="section">
+  <div class="container" data-aos="fade-up">
+    <div class="cta text-center">
+      <h2 class="fw-bold">Warum mit mir zusammenarbeiten?</h2>
+      <p class="mt-3">
+        Ich kombiniere IT-Sicherheit mit Datenschutz-Know-how – und erkläre komplexe Themen verständlich.
+        Mein Ziel sind funktionierende Lösungen für den Alltag, keine überteuerten Beraterpakete.
+      </p>
+      <p class="fw-bold mt-3 mb-0">
+        Klar, unabhängig und praxisnah – direkt von Thomas Meyer.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="py-4">
+  <div class="container text-center">
+    <p><a href="impressum.html" class="text-light">Impressum</a> · <a href="datenschutz.html" class="text-light">Datenschutz</a></p>
+    <small>© 2026 Thomas Meyer – alle Rechte vorbehalten</small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({ once: true, duration: 800, easing: "ease-out-cubic" });
+</script>
+
+</body>
+</html>
